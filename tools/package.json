@@ -1,0 +1,13 @@
+{
+  "name": "spq-tools",
+  "private": true,
+  "description": "Playtest + validation tooling for Super Pixel Quest",
+  "scripts": {
+    "smoke": "node smoke-test.js",
+    "ai": "node ai-benchmark.js 5",
+    "playtest": "node playtest.js"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}
